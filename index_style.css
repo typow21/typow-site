@@ -1,3 +1,75 @@
 h1, h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri;
+}
+
+body{
+    /* background-image: url("background.jpeg"); */
+}
+
+button.github{
+    float: left;
+    font-size: large;
+    width: 12%;
+    height: 30px;
+    margin: 10px;
+    transition: width .5s;
+}
+
+button.github:hover{
+    box-shadow: 1px 2px 3px;
+}
+
+button.resume{
+    font-size: large;
+    width: 12%;
+    height: 30px;
+    margin: 10px;
+    transition: width .5s;
+}
+
+button.resume:hover{
+    box-shadow: 1px 2px 3px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-family: Cambria;
+    font-size: 24px;
+    width: 100%;
+    height: 20%;
+    transition: width .5s;
+}
+
+.project-card1 {
+    border:1px solid black;
+    background-color: rgba(255, 255, 255, 1);
+    grid-column: 1;
+    margin: 10px;
+}
+.project-card2 {
+    border:1px solid black;
+    background-color: rgba(255, 255, 255, 1);
+    grid-column: 2;
+    margin: 10px;
+}
+
+.project-card3 {
+    background-color: rgba(255, 255, 255, 1);
+    border:1px solid black;
+    grid-column: 3;
+    margin: 10px;
+}
+.project-card4 {
+    background-color: rgba(255, 255, 255, 1);
+    border:1px solid black;
+    grid-column: 4;
+    margin: 10px;
+}
+
+div.project-card1:hover, div.project-card2:hover, div.project-card3:hover,div.project-card4:hover{
+    box-shadow: 1px 2px 5px;
 }
